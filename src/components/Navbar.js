@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 
 function Navbar({buttonText, title}) {
   return (
-    <nav>
+    <nav class="hero">
     <ul id="nav-list">
         <li><a href="#about-me">About me</a></li>
         <li><a href="#projects">Projects</a></li>
