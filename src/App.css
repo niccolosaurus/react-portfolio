@@ -1,4 +1,9 @@
 /* This is my CSS */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -14,4 +19,16 @@ ul {
 
 li {
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
 }
