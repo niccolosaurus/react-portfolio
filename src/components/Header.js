@@ -46,6 +46,6 @@ function Header({buttonText, title}) {
           </div>
       </section>
   );
-}
+};
 
 export default Header;
