@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import "./App.css";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <div className="App">
-        <Header buttonText={'button'}/>
+        <Header buttonText={"button"} />
       </div>
-
-      <div>
-        <Main />
-      </div>
-
-      <div>
-        <Footer />
-      </div>
+      <Main />
+      <Projects />
+      <Footer />
     </div>
   );
 }
