@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e8df6d9c.css",
+    "main.js": "/react-portfolio/static/js/main.c69b82f7.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/slither-in-project.PNG": "/react-portfolio/static/media/slither-in-project.15d203b793a5725fa253.PNG",
+    "static/media/national-park-project.PNG": "/react-portfolio/static/media/national-park-project.f1510bb8d85b3ed11e70.PNG",
+    "static/media/professional-photo.jpg": "/react-portfolio/static/media/professional-photo.e482c003140d67d23f7a.jpg",
+    "static/media/Niccolo-Eck-Resume.pdf": "/react-portfolio/static/media/Niccolo-Eck-Resume.8016cfbcf47cdffc705e.pdf",
+    "static/media/weather-dashboard.PNG": "/react-portfolio/static/media/weather-dashboard.731181736df635fb8351.PNG",
+    "static/media/work-day-scheduler.PNG": "/react-portfolio/static/media/work-day-scheduler.c6c21827c4ba23488229.PNG",
+    "index.html": "/react-portfolio/index.html",
+    "main.e8df6d9c.css.map": "/react-portfolio/static/css/main.e8df6d9c.css.map",
+    "main.c69b82f7.js.map": "/react-portfolio/static/js/main.c69b82f7.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8df6d9c.css",
+    "static/js/main.c69b82f7.js"
+  ]
+}
