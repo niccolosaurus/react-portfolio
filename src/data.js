@@ -2,6 +2,8 @@ import nationalParkImg from "./images/national-park-project.PNG";
 import slitherInImg from "./images/slither-in-project.PNG";
 import weatherImg from "./images/weather-dashboard.PNG";
 import workdayImg from "./images/work-day-scheduler.PNG";
+import noteImg from "./images/note-quest.PNG";
+import editImg from "./images/edit-this-text.PNG";
 
 export const projectData = [
   {
@@ -51,5 +53,29 @@ export const projectData = [
     tech: "Tech: Moment",
     site: "https://niccolosaurus.github.io/work-day-schedule/",
     repo: "https://github.com/niccolosaurus/work-day-schedule",
+  },
+  {
+    title: "Note Quest",
+    imgSrc: noteImg,
+    alt: "Note Quest App",
+    description:
+      "This is a note taker application, you can create new notes titles and descriptions, and when you are done with them you can delete them.",
+    type: "Full Stack Project",
+    languages: "Languages: HTML, CSS, JS",
+    tech: "Tech: Express, FS",
+    site: "https://note-quest.herokuapp.com/notes",
+    repo: "https://github.com/niccolosaurus/note-quest",
+  },
+  {
+    title: "Edit This Text",
+    imgSrc: editImg,
+    alt: "Edit This Text App",
+    description:
+      "This is a text application that allows you to jot down whatever comes to your mind. It also contains an install button and can be used offline.",
+    type: "Full Stack Project",
+    languages: "Languages: HTML, CSS, JS",
+    tech: "Tech: Install(script)",
+    site: "https://edit-this-text.herokuapp.com/",
+    repo: "https://github.com/niccolosaurus/edit-this-text",
   },
 ];
