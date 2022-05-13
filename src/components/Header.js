@@ -1,11 +1,29 @@
 import React, { useState } from "react";
 
 function Header() {
-  const [isNavVisible, setIsNavVisible] = useState(false);
+  const [isNavVisible, setIsNavVisible] = useState(true);
+
+  const [screenWidth, setScreenWidth] = useState(
+    window.innerWidth ||
+      document.documentElement.clientWidth ||
+      document.body.clientWidth
+  );
+
+  window.addEventListener("resize", function () {
+    setScreenWidth(
+      window.innerWidth ||
+        document.documentElement.clientWidth ||
+        document.body.clientWidth
+    );
+    if (screenWidth <= 800) {
+      setIsNavVisible(false);
+    } else setIsNavVisible(true);
+  });
 
   function toggleButton() {
-    console.log("test");
-    setIsNavVisible(!isNavVisible);
+    if (isNavVisible) {
+      setIsNavVisible(false);
+    } else setIsNavVisible(true);
   }
 
   return (
