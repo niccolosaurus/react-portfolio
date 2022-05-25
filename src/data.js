@@ -1,9 +1,9 @@
 import nationalParkImg from "./images/national-park-project.PNG";
 import slitherInImg from "./images/slither-in-project.PNG";
-import weatherImg from "./images/weather-dashboard.PNG";
 import workdayImg from "./images/work-day-scheduler.PNG";
 import noteImg from "./images/note-quest.PNG";
 import editImg from "./images/edit-this-text.PNG";
+import zooventureImg from "./images/zooventure-project.PNG";
 
 export const projectData = [
   {
@@ -31,16 +31,16 @@ export const projectData = [
     repo: "https://github.com/niccolosaurus/slither-in",
   },
   {
-    title: "Weather Dashboard",
-    imgSrc: weatherImg,
-    alt: "Weather Dashboard Project",
+    title: "Zooventure Map Project",
+    imgSrc: zooventureImg,
+    alt: "Zooventure Map Project",
     description:
-      "Want to know the weather of a city, look no further than this weather dashboard I designed. It will also generate a 5-day forcast for your future planning.",
-    type: "Front End Project",
+      "This project was created to help visitors going to the San Diego Zoo plan their day with an easy interactive map.",
+    type: "Full Stack Project",
     languages: "Languages: HTML, CSS, JS",
-    tech: "Tech: API, Local Storage",
-    site: "https://niccolosaurus.github.io/weather-dashboard/",
-    repo: "https://github.com/niccolosaurus/weather-dashboard",
+    tech: "Tech: Google Maps API, MERN, GraphQL",
+    site: "https://zooventure.herokuapp.com/",
+    repo: "https://github.com/niccolosaurus/zooventure",
   },
   {
     title: "Workday Scheduler",
