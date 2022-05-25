@@ -7,12 +7,14 @@ function Main() {
       <div className="information">
         <h2>About Me</h2>
         <p>
-          My name is Niccolo Eck, and I am currently going through a full stack
-          boot camp from UCSD. I am able to work with and use HTML, CSS JS, and React.js on the front end, and for the backend I know Node.js, APIs, Express, SQL, and MongoDB.  
+          My name is Niccolo Eck, and I have completed a Full Stack Bootcamp
+          through UCSD. I have a wide range of knowledge including but not
+          limited to HTML, CSS, JavaScript, Node.js MySQL, MongoDB, GraphQL,
+          APIs, and MERN.
         </p>
       </div>
       <div className="photo-container">
-        <img className="photo" src={profilePic} alt="profile of nicco"/>
+        <img className="photo" src={profilePic} alt="profile of nicco" />
       </div>
     </section>
   );
