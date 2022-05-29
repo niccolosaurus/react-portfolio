@@ -46,3 +46,4 @@ n/a
 
 [Github Profie](https://github.com/niccolosaurus) </br>
 nicco.eck@gmail.com </br>
+https://www.linkedin.com/in/niccolo-eck-195714223/ </br>
