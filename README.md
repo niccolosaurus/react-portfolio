@@ -25,6 +25,7 @@ Clone or download the repo
 
 ### Usage
 
+![professional-portfolio-gif](./src/images/professional-portfolio.gif)
 ### License
 
 MIT
